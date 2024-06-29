@@ -2,6 +2,12 @@
 name = "quartile-solver"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+authors = ["David Cuthbert <dacut@kanga.org>"]
+description = "Solve Apple News Quartiles puzzles"
+repository = "https://github.com/dacut/quartile-solver.git"
+homepage = "https://github.com/dacut/quartile-solver.git"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
